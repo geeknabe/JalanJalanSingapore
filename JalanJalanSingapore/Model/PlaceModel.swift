@@ -1,11 +1,4 @@
-//
-//  PlaceModel.swift
-//  JalanJalanSingapore
-//
-//  Created by Cheng Mun Mun on 06/07/2022.
-//
-
-import Foundation
+// DO NOT EDIT
 
 struct Place: Identifiable {
     let id: Int

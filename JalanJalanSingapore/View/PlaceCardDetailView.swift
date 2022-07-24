@@ -1,9 +1,4 @@
-//
-//  PlaceCardDetailView.swift
-//  JalanJalanSingapore
-//
-//  Created by Cheng Mun Mun on 06/07/2022.
-//
+// DO NOT EDIT
 
 import SwiftUI
 
@@ -22,6 +17,7 @@ struct PlaceCardDetailView: View {
             
             NavigationLink(
                 destination: PlaceDetailView(place: place),
+                // programmatic trigger navigation link
                 isActive: $isShowingPlaceDetailView
             ) {
                 Button(action: {

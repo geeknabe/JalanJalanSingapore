@@ -1,9 +1,4 @@
-//
-//  PlaceDetailView.swift
-//  JalanJalanSingapore
-//
-//  Created by Cheng Mun Mun on 06/07/2022.
-//
+// DO NOT EDIT
 
 import SwiftUI
 
@@ -22,7 +17,7 @@ struct PlaceDetailView: View {
                     .font(.body)
                     .multilineTextAlignment(.leading)
                 
-                PlaceLinkView(link: place.link)
+                
             } //: VSTACK
             .navigationTitle(place.name)
             .padding([.leading,.horizontal], 10)

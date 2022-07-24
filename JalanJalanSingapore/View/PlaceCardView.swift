@@ -1,10 +1,3 @@
-//
-//  PlaceCardView.swift
-//  JalanJalanSingapore
-//
-//  Created by Cheng Mun Mun on 06/07/2022.
-//
-
 import SwiftUI
 
 struct PlaceCardView: View {
@@ -16,8 +9,14 @@ struct PlaceCardView: View {
                 .resizable()
                 .scaledToFill()
         } // :ZSTACK
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
-        .cornerRadius(10)
+        .frame(
+            minWidth: 0,
+            maxWidth: .infinity,
+            minHeight: 0,
+            maxHeight: .infinity,
+            alignment: .center
+        )
+        .cornerRadius(20)
         .overlay(
             PlaceCardDetailView(place: place),
             alignment: .bottomLeading
@@ -26,10 +25,8 @@ struct PlaceCardView: View {
 }
 
 struct PlaceCardView_Previews: PreviewProvider {
-    static let places: [Place] = placesData
-    
     static var previews: some View {
-        PlaceCardView(place: places[0])
-            .previewLayout(.fixed(width: 320, height: 640))
+        PlaceCardView(place: placesData[0])
+            .previewLayout(.sizeThatFits)
     }
 }

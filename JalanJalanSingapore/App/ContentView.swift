@@ -4,13 +4,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             TabView {
-                ForEach(placesData) {
-                    PlaceCardView(place: $0)
-                }
+                PlaceCardView(place: placesData[0])
             } //: TABVIEW
-            .tabViewStyle(PageTabViewStyle())
-            .padding(10)
-            .navigationBarHidden(true)
         } //: NAVIGATION VIEW
     }
 }

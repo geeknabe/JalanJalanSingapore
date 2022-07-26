@@ -2,11 +2,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            TabView {
-                PlaceCardView(place: placesData[0])
-            } //: TABVIEW
-        } //: NAVIGATION VIEW
+        Text("Hello world!")
+        
+//        NavigationView {
+//            TabView {
+//                ForEach(placesData) {
+//                    PlaceCardView(place: $0)
+//                }
+//            } //: TABVIEW
+//            .tabViewStyle(PageTabViewStyle())
+//            .padding(10)
+//            .navigationBarHidden(true)
+//        } //: NAVIGATION VIEW
     }
 }
 

@@ -5,6 +5,7 @@ struct PlaceCardView: View {
     
     var body: some View {
         // Add code here
+        Text("Hello world!")
     }
 }
 

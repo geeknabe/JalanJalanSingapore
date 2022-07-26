@@ -79,5 +79,18 @@ let placesData: [Place] = [
         Welcoming a growing number of local and international guests every year, Sentosa is an integral part of Singapore’s goal to be a global destination to work, live and play.
         """,
         link: "https://www.sentosa.com.sg/"
-    )
+    ),
+//    Place(
+//        id: 6,
+//        image: "Singapore-Zoo",
+//        name: "Singapore Zoo",
+//        description: """
+//        The Singapore Zoo, formerly known as the Singapore Zoological Gardens or Mandai Zoo, is a 28 hectares (69 acres) zoo located on the margins of Upper Seletar Reservoir within Singapore's heavily forested central catchment area. Opened in 1973, the zoo was built at a cost of $9 million that was granted by the government of Singapore.
+//
+//        It is operated by the Mandai Wildlife Reserve, which also manages the neighbouring Night Safari, River Wonders, the Jurong Bird Park[a] as well as the forthcoming Rainforest Wild Park. All five parks makes up the Mandai Wildlife Reserve, which consists of more than 15,000 animals from 1,000 species. Within the zoo, there are about 315 species of animals, of which some 16 percent are considered to be a threatened species. The zoo attracts over 2 million visitors every year.
+//
+//        Singapore Zoo has always exhibited animals in naturalistic, 'open' exhibits with hidden barriers, moats, and glass between the animals and visitors. It houses the largest captive colony of orangutans in the world. The Singapore Zoo has been highly ranked by various international metrics.
+//        """,
+//        link: "https://www.mandai.com/en/singapore-zoo.html"
+//    )
 ]

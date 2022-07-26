@@ -17,7 +17,6 @@ struct PlaceCardDetailView: View {
             
             NavigationLink(
                 destination: PlaceDetailView(place: place),
-                // programmatic trigger navigation link
                 isActive: $isShowingPlaceDetailView
             ) {
                 Button(action: {

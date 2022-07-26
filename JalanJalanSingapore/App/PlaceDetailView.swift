@@ -17,7 +17,7 @@ struct PlaceDetailView: View {
                     .font(.body)
                     .multilineTextAlignment(.leading)
                 
-                
+                PlaceLinkView(link: place.link)
             } //: VSTACK
             .navigationTitle(place.name)
             .padding([.leading,.horizontal], 10)
